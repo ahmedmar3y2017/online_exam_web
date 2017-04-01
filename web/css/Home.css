@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+ margin: 0;
+}
+*, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box; position: relative;}
+body {
+
+font-family: 'Sansita', sans-serif;
+}
+/* frame work */
+ @media (max-width: 768px){
+  .carousel{
+    display: none;
+  }
+  .hiddeen{
+    display: block;
+    margin-left:  100px;
+  }
+  .large{
+    display: none;
+  }
+
+  .carousel{
+    display: none;
+  }
+ }
+@media (min-width: 768px){
+ .hiddeen{
+    display: none;
+ }
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+/* end frame work */
+
+.brand-logo{margin-top: -30px}
+nav{background-color: #26a69a ;}
+.input-field input[type="search"]{margin: 0 }
+.container{width: 100%}
+.fa-arrow-down{padding-left: 10px;}
+
+nav ul li .profile-photo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;}
+nav ul li a:hover, a:focus {color: #000;text-decoration: none;}
+/* nav on mobile */
+.mob {background-color:#FEE856;}
+.mob li {
+     -webkit-transition:margin 0.5s ease;
+    -moz-transition:margin 0.5s ease;
+    -o-transition:margin 0.5s ease;
+    transition:margin 0.5s ease;
+    }
+.mob li:hover {margin-left: 7px;}
+.mob a:hover {color: #FFF}
+/**********************************************************/
+
+/* ------------------------- Start Section Features ------------------------ */
+.features {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden
+}
+.features h1 {
+    margin-bottom: 50px;
+}
+.features span{
+    color:#26a69a;
+}
+.features .feat { margin-bottom: 30px; text-align: center}
+.features .feat p { line-height: 2em}
+.features .feat span.glyphicon {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #666
+}
+.icons {
+    width: 75px;
+    text-align: center;
+    line-height: 275%;
+    border-radius: 50%;
+    border: 2px solid #26a69a;
+    color: #26a69a;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+}
+.icons:hover{
+    background-color: #26a69a;
+    color: #fff;
+    border: 2px solid #FFFFFF
+}
+/* ------------------------- End Section Features -------------------------- */
+/* ------------------------- Start Section About ------------------------ */
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    background: #EEE
+}
+.about h1 {
+    font-weight: bold;
+    font-size: 50px
+}
+.about h1 span {
+    color: #26a69a
+}
+.about .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px
+}
+
+/* ------------------------- End Section About ----------------------------- */
+
+
+/* start our-team */
+
+h1{padding-top:50px;font-weight: bold;}
+.te {color:#26a69a}
+p{
+	margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.info{
+	padding-bottom: 50px;
+	margin-top: 30px;
+	-webkit-transition : all .5s ease-in-out ;
+ 	-moz-transition : all .5s ease-in-out ;
+ 	-o-transition : all .5s ease-in-out ;
+ 	transition : all .5s ease-in-out ;
+}
+
+.our-team  img{
+	width: 100%;
+    height: 100%;
+    max-height: 420px;
+	filter: gray;
+	filter: grayscale(1);
+	-webkit-filter:grayscale(1);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+
+}
+
+.our-team .info:hover img{
+    filter: none;
+    -webkit-filter:grayscale(0);
+    transform: translateY(-10px) scale(1.05,1.05);
+    border-bottom: 4px solid #26a69a;
+}
+
+.our-team  .social i {
+	background-color: #9da1a5;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #FFF;
+	margin-bottom: 5px;
+    margin-right: 2px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+
+}
+
+.our-team .info:hover .fa-facebook-square{
+	background-color: #3b5998;
+
+}
+
+.our-team .info:hover .fa-twitter{
+	background-color: #55acee
+}
+
+.our-team .info:hover .fa-instagram{
+	background-color: #fd1d1d
+}
+.our-team  .social i:hover{
+transform: scale(1.1);
+}
+/* end our-team */
+
+
+/* Start keep-touch */
+.keep{
+        min-height: 300px;
+       background:  url('../images/work2.jpeg')  no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color: #FFF;
+      padding-bottom: 20px;
+
+}
+
+.keep h1{
+	padding-bottom: 20px;
+    padding-top: 80px;
+}
+.keep p {
+  margin-bottom: 30px;
+}
+
+.form-inline .form-control{
+
+	width: 300px;
+	border: 1px solid #26a69a;
+	background-color: #FFF;
+	margin-right: -5px;
+   padding: 3px 7px;
+    font-size: 18px;
+
+}
+.form-inline .btn {
+
+    height: 53px;
+    margin-bottom: 20px
+}
+
+
+/* end keep-touch */
+
+
+/* start footer */
+.footr{
+    overflow: hidden;
+	padding-top:  30px;
+	background-color:#0e3c38;
+	color:#FFF;
+	margin-top: -30px;
+}
+.footr span{
+    	color:#26a69a;
+}
+.footr a{
+	color:#26a69a;
+	font-weight: bold;
+	font-size: 15px;
+}
+.footr a span{
+    color: #7e837f
+}
+.footr .social{
+	margin-left: 80px
+}
+
+/* end footer */
+/**************** Scroll ******************/
+.scroll-top{
+    overflow: hidden;
+}
+
+#scroll-top .fa-chevron-up{
+    font-size: 20px;
+    line-height: 40px
+}
+
+#scroll-top {
+    width:40px;
+    height:40px;
+    color:#DDD;
+    background-color:#272727;
+    text-align:center;
+    position:fixed;
+    right:35px;
+    bottom:10px;
+    z-index:9999;
+    display:none;
+    cursor:pointer;
+    border-radius: 50%
+}
+
+#scroll-top:hover {background-color:#444}
+/**************** Scroll ******************/

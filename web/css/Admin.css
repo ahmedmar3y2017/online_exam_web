@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+
+font-family: 'Montserrat', sans-serif;
+}
+/* frame work */
+
+.overlay {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%
+}
+
+/* end frame work */
+
+
+.Features-Admin{
+	background: url(../images/Admin.jpg)  center center fixed no-repeat;
+	color: #FFF;
+	text-align: center;
+	
+   }
+.Features-Admin h1 {
+	text-align: center;
+
+
+}
+
+.Features-Admin h1 span {
+	color: #B80257
+
+}
+
+ .detail
+{
+
+    background: #fff;
+   	width: 250px;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    padding: 10px;
+    color: #000
+}
+
+.detail h3{margin: 5px 0 15px;
+color: #2bbbad}
+
+.detail:hover img
+{
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    transform:scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #dfdfdf;
+}
+.detail img
+{
+   
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    line-height: 100px;
+    border: 2px solid #586E72;
+    -webkit-transition-duration:0.7s;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+     transition-duration:0.7s;
+}
+
+.detail p {
+margin-top:10px;
+font-size: 18px;
+color: #2bbbad;
+}
+.detail li
+{
+    line-height: 250%;
+    font-size: 18px;
+}
+
+.Questions h3 , .Questions p {
+	color: #CF455C;
+}
+.Questions button, .Questions button:hover {
+	background-color:#CF455C 
+}
+
+.links h3 , .links p {
+	color: #7D5E3F
+}
+.links button {
+	background-color:#7D5E3F 
+}
+
+.links button:hover {
+background-color:#7D5E3F !important	
+}
+

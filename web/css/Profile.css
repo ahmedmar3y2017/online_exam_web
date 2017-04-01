@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+ margin: 0;
+}
+*, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box; position: relative;}
+p , h1 , h2 , h3 , h4 , h5 , h6 {
+	font-family: 'Sansita', sans-serif;}
+
+@media screen and (max-width: 600px;){
+	
+
+}
+@media (max-width: 768px){
+  .grade{
+  
+ 	top: 0 !important;
+ 	left: 10px !important;
+
+	}
+
+.Profile .photo {
+	width: 75% !important;
+	height: 75% !important;	
+	
+}
+
+}
+
+/* end frame work */
+.brand-logo{margin-top: -30px}
+nav{background-color: #26a69a ;}
+.input-field input[type="search"]{margin: 0 }
+.container{width: 100%}
+.fa-arrow-down{padding-left: 10px;}
+
+nav ul li .profile-photo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;}
+nav ul li a:hover, a:focus {color: #000;text-decoration: none;}
+/* nav on mobile */
+
+.mob {background-color:#FEE856;}
+.mob li {
+     -webkit-transition:margin 0.5s ease;
+    -moz-transition:margin 0.5s ease;
+    -o-transition:margin 0.5s ease;
+    transition:margin 0.5s ease;
+    }
+.mob li:hover {margin-left: 7px;}
+.mob a:hover {color: #FFF}
+
+
+
+/* End Navbar */
+
+
+/* start profile */ 
+
+.Profile {
+
+	background-color: #dddddd;
+	overflow: hidden;
+	padding: 10px 5px;
+}
+
+.Profile .photo {margin-top: 40px}
+
+.Profile .photo .profile-photo2 {
+	margin-left: -10px 
+
+}
+
+
+.Profile .profile-photo2 img{
+	border: 2px solid #26a69a;
+	border-radius: 10px;
+	 width: 100%;
+	 height: 100%
+	}
+
+.overlay {
+	position: absolute;
+    background-color: rgba(0, 106, 105, .6);
+    top: 0;
+    left: 0px;
+    width:  100% ;
+	height: 100% ;
+	border: 2px solid #FFF;
+	border-radius: 10px;
+	display: none;
+}
+ .Profile .profile-photo2:hover .overlay{display: block;}
+
+
+.custommize:hover {
+	background-color: #FFF !important;
+	border: 1px solid #26a69a; 
+}
+
+/* end profil pic */ 
+
+.info {
+	background-color: #FFF;
+	margin-top: 44px; 
+	padding: 20px !important;
+	border: 2px solid #26a69a;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.info .btn {
+	width: 50%;
+}
+.info i {
+	font-size: 15px;
+	display: none;
+	margin-left: 20px;
+
+}
+.info h5:hover i , .info h5:focus i{
+	display: inline;
+
+} 
+.info i:hover  , .info i:focus {
+	cursor: pointer;
+	color: #26a69a
+}
+
+.forma5 h4:hover i , .forma5 h4:focus i{
+	display: inline;
+
+} 
+
+
+
+
+/* start grade */ 
+ .grade{
+ 	
+ 	top: -220px;
+ 	left: 50px;
+
+	}
+	
+.grade .grades{
+	margin-left: 50px
+}
+
+.grade #Grades {
+	margin-top: 20px;
+	border: 2px solid #26a69a;
+	border-radius: 20px;
+	padding: 10px;
+	width: 90%
+	
+}
+.grade h6{
+	display: inline;
+	margin-left: 10px;}
+
+.grade span {
+	float: right;
+}
+ .grade hr {
+	background-color: #F00 !important
+}
+
+/* end grade*/
+
+
+
+/* start footer */
+.footr{
+    overflow: hidden;
+	padding-top:  30px;
+	background-color:#0e3c38;
+	color:#FFF;
+	
+	}
+.footr span{
+    	color:#26a69a;
+}
+.footr a{
+	color:#26a69a;
+	font-weight: bold;
+	font-size: 15px;
+}
+.footr a span{
+    color: #7e837f
+}
+.footr .social{
+	margin-left: 80px
+}
+
+/* end footer */

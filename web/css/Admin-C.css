@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+
+font-family: 'Montserrat', sans-serif;
+background-color: #2A3545
+}
+/*------------------------------------------------------------*/ 
+
+
+.nav-home{
+	background-color: #ffffff;
+	text-align: center;
+	
+}
+
+.nav-home ul {list-style-type: none; margin-top: -20px;
+ }
+.nav-home ul li {
+	display: inline-block;
+	float: right;
+	width: 33.33333%;
+	cursor: pointer; 
+	color: #26a69a ; 
+	padding: 10px 0;
+	font-size: 18px;
+	height: 100%
+
+}
+.nav-home ul li:hover{
+	color: #FFF; 
+	background: #26a69a;
+	 border-radius: 3px; 
+	
+ }
+	 .nav-home ul li:hover {
+	 	color: #fff
+	 }
+
+.nav-home ul li.select-home{ background-color: #26a69a; color: #fff; font-weight: bold ; }
+
+
+/* nav */
+
+.Admin-Links , .Admin-question , .Admin-Courses{
+	padding-top: 20px;
+}
+.container{
+	background-color: #ffffff;
+	padding: 15px;
+}
+.search {
+	padding-top: 20px;
+	width: 40%;
+	margin-left: 250px;
+	margin-bottom: 60px
+
+}
+.striped {
+	border: 2px solid #ddd;
+}
+form .buttons{
+	margin-top: 50px;
+	
+}
+.Admin-question textarea , .Admin-Courses textarea{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px 5px;
+	height: 155px;
+}
+input , label {
+	display: block;
+}

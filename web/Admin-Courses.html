@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Compatibility Meta IE -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- First Mobile Meta -->
+        <title>Admin | Courses</title>
+       
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'>
+        <link rel="stylesheet" href="css/Admin-C.css">
+    </head>
+
+
+    <body>
+
+    <!--    Start Custom Navbar  -->
+         <section class="nav-home">   
+        <div class="container" style="height: 60px;">
+            <div class="row">
+              
+                    
+                    <ul>
+                      <li data-class="Admin-question"> Questions</li>
+                      <li data-class="Admin-Links" class="select-home" >Links</li>
+                      <li data-class="Admin-Courses"> Courses </li>
+                    </ul>
+                  
+                   </div>
+              </div>
+            
+        </section>
+
+    <!--    End Custom Navbar  -->
+
+    <section class="Admin-Links">
+        <div class="container">
+
+            <div class="search">
+
+          <label class="label-icon" for="search">
+            <i class="fa fa-search fa-1x"></i>    
+          </label>
+
+          <input id="search" type="search" required>
+            </div>
+       
+
+
+            <div class="row">
+                <div class=" inputs col l4 s12">
+                <label>ID</label>
+            <input type="number" name="id">
+
+            <label>Link</label>
+            <input type="text" name="link">
+
+            <label>Course Name</label>
+            <input type="text" name="Coursename">
+                </div>
+
+                <div class="col l6  offset-l2 s12">
+
+                    <table class="striped">
+                 
+                         <tr>
+                    <th>ID</th>
+                     <th>Courses Name</th>
+                      <th>Links</th> 
+                  
+                  </tr>
+                
+
+                  <tr>
+                    <td>1</td>
+                   
+                    <td>Java se</td>
+                    <td><a href="">www.youtube/java.com </a> </td> 
+                      
+                  </tr>
+
+
+                  <tr>
+                    <td>1</td>
+                   
+                    <td>Java se</td>
+                     <td><a href="">www.youtube/java.com </a> </td> 
+                  </tr>
+
+
+                  <tr>
+                    <td>1</td>
+                   
+                    <td>Java se</td>
+                     <td><a href="">www.youtube/java.com </a> </td> 
+                  </tr>
+                  
+
+
+
+                  <tr>
+                    <td>1</td>
+                   
+                    <td>Java se</td>
+                     <td><a href="">www.youtube/java.com </a> </td> 
+                  </tr>
+                  
+                  
+
+
+                    </table>
+
+
+                </div>
+
+
+            </div>
+            <form class="forma">
+                    <div class="row buttons" style="margin-right: 20px;">                
+                <button class="btn col l3 offset-l1 s12">Add</button>
+                <button class="btn col l3 offset-l1 s12">Delete</button>
+                <button class="btn col l3 offset-l1  s12 ">New</button>
+                </div>
+
+            </form>
+            
+
+        </div>
+
+
+    </section>
+
+
+     <section class="Admin-question">
+        <div class="container">
+
+            <div class="search">
+
+          <label class="label-icon" for="search">
+          Show Question
+            <i class="fa fa-search fa-1x"></i>    
+          </label>
+
+          <input id="search" type="search" required>
+            </div>
+       
+
+
+            <div class="row">
+                <div class=" inputs col l4 s12">
+                <label style="color: #000; font-size: 15px">ID</label>
+            <input type="number" name="id">
+
+            <label style="color: #000; font-size: 15px">Question</label>
+              
+              <textarea placeholder="Add Question here ....."></textarea>
+
+                <label style="color: #000; font-size: 15px"> You Must Add 4 Choice</label>
+                <input type="text"  placeholder=" Answer A">
+                <input type="text"  placeholder=" Answer B">
+                <input type="text"  placeholder=" Answer C">
+                <input type="text"  placeholder=" Answer D">
+            
+
+            <label style="color: #000; font-size: 15px">Correct Answer :: </label>
+            <input type="text" name="Coursename" >
+                </div>
+
+                <div class="col l6  offset-l2 s12">
+
+                    <table class="striped">
+                 
+                         <tr>
+                    <th>ID</th>
+                     <th>Question </th>
+                      <th>Correct</th> 
+                      <th>Answer</th> 
+                  
+                  </tr>
+                
+
+                
+
+
+                    </table>
+
+
+                </div>
+
+
+            </div>
+            <form>
+                    <div class="row buttons">                
+                <button class="btn col l2 offset-l1  s12">Add</button>
+                 <button class="btn col l2 offset-l1 s12">Update</button>
+                <button class="btn col l2 offset-l1 s12">Delete</button>
+                <button class="btn col l2  offset-l1 s12  " style="margin-left: 50px;">New</button>
+                </div>
+
+            </form>
+
+          
+        </div>
+        </section>
+
+
+
+
+         <section class="Admin-Courses">
+        <div class="container">
+
+            <div class="search">
+
+          <label class="label-icon" for="search">
+          Serch On Courses
+            <i class="fa fa-search fa-1x"></i>    
+          </label>
+
+          <input id="search" type="search" required>
+            </div>
+       
+
+
+            <div class="row">
+                <div class=" inputs col l4 s12">
+
+                <label style="color: #000; font-size: 15px;">ID</label>
+
+            <input type="number" name="id" style=" width: 50%">
+           
+
+            <label style="color: #000; font-size: 15px">Name</label>
+             <input type="text" name="Coursename" >
+
+
+           <label style="color: #000; font-size: 15px ; ">Min-Grade</label>
+            <input type="number" name="Min-Grade" style="width: 50%">
+            <br>
+
+
+            <label style="color: #000; font-size: 15px ;">Final</label>
+            <input type="number" name="Final-Grade" style=" width: 50%">
+            <br>
+
+
+                <label style="color: #000; font-size: 15px ">Time</label>
+
+                  <select>
+                    <option selected disabled>Select Course Time</option>
+                    <option>10 Hour</option>
+                    <option>20 Hour</option>
+                    <option>30 Hour</option>
+                    <option>40 Hour</option>
+
+                  </select>
+
+
+              <textarea placeholder="Add Description here ....."></textarea>
+
+               
+                </div>
+
+                <div class="col l6  offset-l2 s12">
+
+                    <table class="striped">
+                 
+                         <tr>
+                    <th>ID</th>
+                     <th>Name </th>
+                      <th>Time</th> 
+                      <th>Final</th> 
+                       <th>Min-Grade</th> 
+                      <th>description</th> 
+
+                  
+                  </tr>
+                
+
+                
+
+
+                    </table>
+
+
+                </div>
+
+
+            </div>
+            <form>
+                    <div class="row buttons">                
+                <button class="btn col l2 offset-l1  s12">Add</button>
+                 <button class="btn col l2 offset-l1 s12">Update</button>
+                <button class="btn col l2 offset-l1 s12">Delete</button>
+                <button class="btn col l2  offset-l1 s12  " style="margin-left: 50px;">New</button>
+                </div>
+
+            </form>
+
+          
+        </div>
+        </section>
+
+
+
+
+      
+
+
+
+
+
+
+
+
+     </body>
+
+         <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/materialize.js"></script>    
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/custom-Admin.js"></script> 
