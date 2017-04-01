@@ -6,7 +6,10 @@
 body {
 
 font-family: 'Montserrat', sans-serif;
-background-color: #2A3545
+
+background-image:url("../images/Admin.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 /*------------------------------------------------------------*/ 
 
@@ -17,7 +20,7 @@ background-color: #2A3545
 	
 }
 
-.nav-home ul {list-style-type: none; margin-top: -20px;
+.nav-home ul {list-style-type: none; margin-top: -10px;
  }
 .nav-home ul li {
 	display: inline-block;
@@ -46,25 +49,29 @@ background-color: #2A3545
 /* nav */
 
 .Admin-Links , .Admin-question , .Admin-Courses{
-	padding-top: 20px;
+	padding: 20px;
+	margin-top: 50px;
 }
 .container{
 	background-color: #ffffff;
-	padding: 15px;
+	padding: 15px 15px 40px;
 }
 .search {
-	padding-top: 20px;
-	width: 40%;
-	margin-left: 250px;
-	margin-bottom: 60px
+	padding: 10px;
+	
+	margin-bottom: 30px
+
+}
+.form-control{
+	padding: 20px;
+	margin-bottom: 20px;
 
 }
 .striped {
 	border: 2px solid #ddd;
 }
-form .buttons{
-	margin-top: 50px;
-	
+.formas button{
+	margin-top: 20px;
 }
 .Admin-question textarea , .Admin-Courses textarea{
 	margin-top: 15px;

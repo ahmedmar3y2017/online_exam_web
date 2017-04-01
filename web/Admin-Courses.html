@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -6,12 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Compatibility Meta IE -->
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- First Mobile Meta -->
         <title>Admin | Courses</title>
-       
-        <link rel="stylesheet" href="css/materialize.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/Admin-C.css">
+       
     </head>
 
 
@@ -39,93 +38,104 @@
     <section class="Admin-Links">
         <div class="container">
 
-            <div class="search">
+          <div class="row">
 
-          <label class="label-icon" for="search">
-            <i class="fa fa-search fa-1x"></i>    
-          </label>
-
-          <input id="search" type="search" required>
+          <div class="col-lg-offset-3 col-lg-6   col-xs-12  search">
+              <input type="text" class="form-control" placeholder="Search for...">
+              </div>
             </div>
        
 
 
             <div class="row">
-                <div class=" inputs col l4 s12">
+
+                <div class="col-lg-4 col-xs-12 ">
+
                 <label>ID</label>
-            <input type="number" name="id">
+            <input id="validate1" class=" form-control" type="number" name="id" style="width: 50%">
+            <label id="check1"></label>
 
             <label>Link</label>
-            <input type="text" name="link">
+            <input id="validate2" class="form-control" type="text" name="link">
+            <label id="check2"></label>
 
             <label>Course Name</label>
-            <input type="text" name="Coursename">
+            <input id="validate3" class="form-control" type="text" name="Coursename">
+              <label id="check3"></label>
                 </div>
 
-                <div class="col l6  offset-l2 s12">
+                <div class="col-lg-offset-2 col-lg-6  col-xs-12">
+                <div class="table-responsive">
+                  <table class="table table-hover " style="border: 3px solid #DDD">
+                    <thead>
+                      <th>ID</th>
+                      <th>NAME</th>
+                      <th>LINKS</th>
+                      <th>EDIT</th>
+                      <th>DELET</th>
+                    </thead>
 
-                    <table class="striped">
-                 
-                         <tr>
-                    <th>ID</th>
-                     <th>Courses Name</th>
-                      <th>Links</th> 
-                  
-                  </tr>
-                
+                     <tbody>
+                       <td>1</td>
+                        <td>Java</td>
+                         <td><a href="www.youtube.com">www.youtube.com</a></td>
+                          <td><a>EDIT</a></td>
+                          <td><a href="#">Delet</a></td>
+                     </tbody>
 
-                  <tr>
-                    <td>1</td>
-                   
-                    <td>Java se</td>
-                    <td><a href="">www.youtube/java.com </a> </td> 
-                      
-                  </tr>
+                     <tbody>
+                       <td>1</td>
+                        <td>Java</td>
+                         <td><a href="www.youtube.com">www.youtube.com</a></td>
+                          <td><a>EDIT</a></td>
+                          <td><a href="">Delet</a></td>
+                     </tbody>
 
-
-                  <tr>
-                    <td>1</td>
-                   
-                    <td>Java se</td>
-                     <td><a href="">www.youtube/java.com </a> </td> 
-                  </tr>
-
-
-                  <tr>
-                    <td>1</td>
-                   
-                    <td>Java se</td>
-                     <td><a href="">www.youtube/java.com </a> </td> 
-                  </tr>
-                  
-
-
-
-                  <tr>
-                    <td>1</td>
-                   
-                    <td>Java se</td>
-                     <td><a href="">www.youtube/java.com </a> </td> 
-                  </tr>
-                  
-                  
+                     <tbody>
+                       <td>1</td>
+                        <td>Java</td>
+                         <td><a href="www.youtube.com">www.youtube.com</a></td>
+                          <td><a>EDIT</a></td>
+                          <td><a href="">Delet</a></td>
+                     </tbody>
+                     <tbody>
+                       <td>1</td>
+                        <td>Java</td>
+                         <td><a href="www.youtube.com">www.youtube.com</a></td>
+                          <td><a>EDIT</a></td>
+                          <td><a href="">Delet</a></td>
+                     </tbody>
 
 
-                    </table>
+                     <tbody>
+                       <td>1</td>
+                        <td>Java</td>
+                         <td><a href="www.youtube.com">www.youtube.com</a></td>
+                          <td><a>EDIT</a></td>
+                          <td><a href="">Delet</a></td>
+                     </tbody>
+
+
+
+
+                  </table>
+
+                </div>
 
 
                 </div>
 
 
             </div>
-            <form class="forma">
-                    <div class="row buttons" style="margin-right: 20px;">                
-                <button class="btn col l3 offset-l1 s12">Add</button>
-                <button class="btn col l3 offset-l1 s12">Delete</button>
-                <button class="btn col l3 offset-l1  s12 ">New</button>
-                </div>
+            <div class="row">
+              <form class="forma">
+                <button  class="btn col-md-4 col-md-offset-7 col-xs-12  btn-danger">ADD</button>
 
-            </form>
+              </form>
+
+                
+
+            </div>
             
 
         </div>
@@ -135,75 +145,111 @@
 
 
      <section class="Admin-question">
-        <div class="container">
+          <div class="container">
 
-            <div class="search">
+          <div class="row">
 
-          <label class="label-icon" for="search">
-          Show Question
-            <i class="fa fa-search fa-1x"></i>    
-          </label>
-
-          <input id="search" type="search" required>
+          <div class="col-lg-offset-3 col-lg-6   col-xs-12  search">
+              <input type="text" class="form-control" placeholder="Search for...">
+              </div>
             </div>
-       
 
 
             <div class="row">
-                <div class=" inputs col l4 s12">
+                <div class=" inputs col-lg-4 col-xs-12">
                 <label style="color: #000; font-size: 15px">ID</label>
-            <input type="number" name="id">
-
+            <input id="validate4" class="form-control" type="number" name="id">
+              <label id="check4"></label>
             <label style="color: #000; font-size: 15px">Question</label>
               
-              <textarea placeholder="Add Question here ....."></textarea>
-
+              <textarea id="validate5" class="form-control" placeholder="Add Question here ....."></textarea>
+                <label id="check5"></label>
                 <label style="color: #000; font-size: 15px"> You Must Add 4 Choice</label>
-                <input type="text"  placeholder=" Answer A">
-                <input type="text"  placeholder=" Answer B">
-                <input type="text"  placeholder=" Answer C">
-                <input type="text"  placeholder=" Answer D">
-            
+                <input id="validate6" class="form-control" type="text"  placeholder=" Answer A">
+                <label id="check6"></label>
+                <input id="validate7" class="form-control" type="text"  placeholder=" Answer B">
+                <label id="check7"></label>
+                <input id="validate8" class="form-control" type="text"  placeholder=" Answer C">
+                <label id="check8"></label>
+                <input id="validate9" class="form-control" type="text"  placeholder=" Answer D">
+                <label id="check9"></label>
 
             <label style="color: #000; font-size: 15px">Correct Answer :: </label>
-            <input type="text" name="Coursename" >
+            <input  id="validate10" class="form-control" type="text" name="Coursename" >
+              <label id="check10"></label>
                 </div>
 
-                <div class="col l6  offset-l2 s12">
+                  <div class="col-lg-offset-2 col-lg-6  col-xs-12">
+                  <div class="table-responsive">
+                  <table class="table table-hover " style="border: 2px solid #DDD">
+                    <thead>
+                      <th>ID</th>
+                      <th>Question</th>
+                      <th>Correct</th>
+                      <th>Answer</th>
+                      <th>Edit</th>
+                      <th>Delet</th>
+                      
+                    </thead>
 
-                    <table class="striped">
-                 
-                         <tr>
-                    <th>ID</th>
-                     <th>Question </th>
-                      <th>Correct</th> 
-                      <th>Answer</th> 
-                  
-                  </tr>
-                
 
-                
+                     <tbody>
+                       <td>1</td>
+                        <td>what is Java ?</td>
+                         <td>true</td>
+                          <td>
+                            1
+                            <br>
+                            2
+                            <br>
+                            3
+                            <br>
+                            4
+                          </td>
+                            <td><a>EDIT</a></td>
+                          <td><a href="">Delet</a></td>
+                          
+                     </tbody>
 
+                      <tbody>
+                       <td>1</td>
+                        <td>what is Java ?</td>
+                         <td>true</td>
+                          <td>
+                            1
+                            <br>
+                            2
+                            <br>
+                            3
+                            <br>
+                            4
+                          </td>
+                            <td><a>EDIT</a></td>
+                          <td><a href="">Delet</a></td>
+                          
+                     </tbody>
 
                     </table>
 
+          
+
 
                 </div>
+                  <div class="row">
+              <form class="forma2">
+                <button class="btn  col-xs-12  btn-danger">ADD</button>
 
+              </form>
+
+                
 
             </div>
-            <form>
-                    <div class="row buttons">                
-                <button class="btn col l2 offset-l1  s12">Add</button>
-                 <button class="btn col l2 offset-l1 s12">Update</button>
-                <button class="btn col l2 offset-l1 s12">Delete</button>
-                <button class="btn col l2  offset-l1 s12  " style="margin-left: 50px;">New</button>
-                </div>
+            </div>
 
-            </form>
-
+            
           
         </div>
+
         </section>
 
 
@@ -212,112 +258,123 @@
          <section class="Admin-Courses">
         <div class="container">
 
-            <div class="search">
+           <div class="row">
 
-          <label class="label-icon" for="search">
-          Serch On Courses
-            <i class="fa fa-search fa-1x"></i>    
-          </label>
-
-          <input id="search" type="search" required>
+          <div class="col-lg-offset-3 col-lg-6   col-xs-12  search">
+              <input type="text" class="form-control" placeholder="Search for...">
+              </div>
             </div>
        
 
 
             <div class="row">
-                <div class=" inputs col l4 s12">
+                <div class=" inputs col-lg-4 col-xs-12">
 
                 <label style="color: #000; font-size: 15px;">ID</label>
 
-            <input type="number" name="id" style=" width: 50%">
-           
+                <input id="validate11" type="number" class="form-control" style="width: 50%">
+                  <label id="check11"></label>
 
             <label style="color: #000; font-size: 15px">Name</label>
-             <input type="text" name="Coursename" >
-
+            <input id="validate12" type="text" class="form-control" >
+               <label id="check12"></label>
 
            <label style="color: #000; font-size: 15px ; ">Min-Grade</label>
-            <input type="number" name="Min-Grade" style="width: 50%">
+           <input id="validate13" type="number" class="form-control" style="width: 50%">
+            <label id="check13"></label>
             <br>
 
 
             <label style="color: #000; font-size: 15px ;">Final</label>
-            <input type="number" name="Final-Grade" style=" width: 50%">
+            <input id="validate14" type="number" class="form-control" style="width: 50%">
+             <label id="check14"></label>
             <br>
 
 
                 <label style="color: #000; font-size: 15px ">Time</label>
 
-                  <select>
-                    <option selected disabled>Select Course Time</option>
-                    <option>10 Hour</option>
-                    <option>20 Hour</option>
-                    <option>30 Hour</option>
-                    <option>40 Hour</option>
+                  <input id="validate15" class="form-control" type="number" name="Times" style="width: 50%" placeholder="Hours..">
+                   <label id="check15"></label>
 
-                  </select>
-
-
-              <textarea placeholder="Add Description here ....."></textarea>
+              <textarea id="validate16" placeholder="Add Description here ....." style="width: 350px;"></textarea>
+               <label id="check16"></label>
 
                
                 </div>
 
-                <div class="col l6  offset-l2 s12">
-
-                    <table class="striped">
-                 
-                         <tr>
-                    <th>ID</th>
-                     <th>Name </th>
-                      <th>Time</th> 
-                      <th>Final</th> 
-                       <th>Min-Grade</th> 
-                      <th>description</th> 
-
-                  
-                  </tr>
-                
-
-                
+                 <div class="col-lg-offset-2 col-lg-6  col-xs-12">
+                  <div class="table-responsive">
+                  <table class="table table-hover " style="border: 2px solid #DDD">
+                    <thead>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Time</th>
+                      <th>Final-grade</th>
+                      <th>Min-grade</th>
+                      <th>Description</th>
+                      <th>Edit</th>
+                      <th>Delet</th>
+                      
+                    </thead>
 
 
+                     <tbody>
+                       <td>1</td>
+                        <td> Java </td>
+                         <td>40 Hours</td>
+                          <td> 100</td>
+                          <td> 60</td>
+                          <td> Java is Astrong language</td>
+                          <td><a href="">Edit</a></td>
+                          <td><a href="">Delet</a></td>
+                     </tbody>
+
+                     <tbody>
+                       <td>1</td>
+                        <td> Java </td>
+                         <td>40 Hours</td>
+                          <td> 100</td>
+                          <td> 60</td>
+                          <td> Java is Astrong language</td>
+                          <td><a href="">Edit</a></td>
+                          <td><a href="">Delet</a></td>
+
+                     </tbody>
+
+                     <tbody>
+                       <td>1</td>
+                        <td> Java </td>
+                         <td>40 Hours</td>
+                          <td> 100</td>
+                          <td> 60</td>
+                          <td> Java is Astrong language</td>
+                          <td><a href="">Edit</a></td>
+                          <td><a href="">Delet</a></td>
+
+                     </tbody>
                     </table>
 
+          
+
 
                 </div>
 
+              <form class="foram3">
+                <button class="btn  col-xs-12  btn-danger">ADD</button>
+
+              </form>
 
             </div>
-            <form>
-                    <div class="row buttons">                
-                <button class="btn col l2 offset-l1  s12">Add</button>
-                 <button class="btn col l2 offset-l1 s12">Update</button>
-                <button class="btn col l2 offset-l1 s12">Delete</button>
-                <button class="btn col l2  offset-l1 s12  " style="margin-left: 50px;">New</button>
-                </div>
 
-            </form>
+            </div>
+            
 
           
         </div>
         </section>
 
-
-
-
-      
-
-
-
-
-
-
-
-
      </body>
 
-         <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/materialize.js"></script>    
-        <script src="js/jquery.nicescroll.min.js"></script>
+         <script src="js/jquery-1.11.1.min.js"></script>    
+             
         <script src="js/custom-Admin.js"></script> 
